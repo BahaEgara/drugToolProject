@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Example</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+
+      .highlight-column {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sample Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <!-- <th>City</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td class="highlight-column">25</td>
+          <!-- <td>New York</td> -->
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td class="highlight-column">30</td>
+          <!-- <td>London</td> -->
+        </tr>
+        <tr>
+          <td>Bob Johnson</td>
+          <td class="highlight-column">40</td>
+          <!-- <td>Tokyo</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
